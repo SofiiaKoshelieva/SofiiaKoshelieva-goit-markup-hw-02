@@ -68,14 +68,14 @@
   color: var(--button-text-color);
 }
 /* !!!!!!!PLUSES!!!!!! */
-.pluses-item-title {
+.rluses-item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.pluses-item {
+.rluses-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
