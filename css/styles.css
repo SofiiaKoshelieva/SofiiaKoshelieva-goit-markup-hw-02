@@ -67,7 +67,7 @@
   background-color: var(--button-color);
   color: var(--button-text-color);
 }
-/* !!!!!!!PLUSES!!!!!! */
+/* !!!!!!!RLUSES!!!!!! */
 .rluses-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -75,7 +75,7 @@
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
-.rluses-item {
+.rluses-item-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 71;
