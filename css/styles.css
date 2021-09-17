@@ -20,6 +20,9 @@
 .link {
   text-decoration: none;
 }
+.btn {
+  cursor: pointer;
+}
 /* !!!!!!!!!HEADER!!!!!!!!!!! */
 .web {
   color: var(--accent-color);
