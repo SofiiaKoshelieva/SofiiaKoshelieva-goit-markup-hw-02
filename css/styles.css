@@ -10,7 +10,7 @@
   --bg-footer-color: #2f303a;
   --buttons-color-portfolio: #f5f4fa;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
@@ -26,6 +26,11 @@
 /* !!!!!!!!!HEADER!!!!!!!!!!! */
 .web {
   color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .studio {
   color: var(--title-color);
@@ -34,7 +39,7 @@
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
@@ -46,9 +51,9 @@
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: var(--text-color);
 }
 .header-contact-link {
   color: var(--title-color);
@@ -61,7 +66,7 @@
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 36;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
   background-color: var(--background-color);
@@ -74,14 +79,15 @@
 .rluses-item-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+
   color: var(--title-color);
 }
 .rluses-item-text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
@@ -89,7 +95,7 @@
 .our-task-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   color: var(--title-color);
@@ -98,7 +104,7 @@
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 16;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 
   color: var(--title-color);
@@ -106,15 +112,14 @@
 .our-team-item-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--title-color);
 }
 .our-team-item-paragraph {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 
   color: var(--text-color);
@@ -124,11 +129,11 @@
   background-color: var(--bg-footer-color);
 }
 .footer-list {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-color);
+  font-style: normal;
 }
 .footer-studio {
   color: var(--button-text-color);
@@ -138,7 +143,7 @@
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 6;
+  line-height: 1.6;
   letter-spacing: 0.03em;
 }
 .button:hover,
@@ -154,9 +159,8 @@
   color: var(--title-color);
 }
 .examples-item-paragraph {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1, 87;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 
   color: var(--text-color);
