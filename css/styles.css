@@ -36,7 +36,12 @@ body {
 .studio {
   color: var(--title-color);
 }
-
+.header-link.link.current-page {
+  color: var(--accent-color);
+}
+.header-link.link.current-page {
+  color: var(--accent-color);
+}
 .header-link {
   font-weight: 500;
   font-size: 14px;
