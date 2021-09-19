@@ -9,6 +9,7 @@
   --footer-color: #ffffff99;
   --bg-footer-color: #2f303a;
   --buttons-color-portfolio: #f5f4fa;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -48,15 +49,12 @@ body {
 .header-link:focus {
   color: var(--accent-color);
 }
-.header-contacts {
+.header-contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
-}
-.header-contact-link {
-  color: var(--title-color);
 }
 .header-contact-link:hover,
 .header-contact-link:focus {
@@ -75,8 +73,8 @@ body {
   background-color: var(--button-color);
   color: var(--button-text-color);
 }
-/* !!!!!!!RLUSES!!!!!! */
-.rluses-item-title {
+/* !!!!!!!PLUSES!!!!!! */
+.pluses-item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -85,7 +83,7 @@ body {
 
   color: var(--title-color);
 }
-.rluses-item-text {
+.pluses-item-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -137,6 +135,23 @@ body {
 }
 .footer-studio {
   color: var(--button-text-color);
+}
+.footer-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--footer-link-color);
+}
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+  color: var(--accent-color);
+}
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
 }
 .button {
   background-color: var(--buttons-color-portfolio);
